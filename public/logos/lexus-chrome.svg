@@ -1,0 +1,15 @@
+<svg width="512" height="340" viewBox="0 0 512 340" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="lexusChrome" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="25%" stop-color="#E2E8F0"/>
+      <stop offset="50%" stop-color="#94A3B8"/>
+      <stop offset="75%" stop-color="#CBD5E1"/>
+      <stop offset="100%" stop-color="#FFFFFF"/>
+    </linearGradient>
+  </defs>
+  <!-- Ellipse Outer -->
+  <ellipse cx="256" cy="170" rx="230" ry="142" stroke="url(#lexusChrome)" stroke-width="26" fill="none"/>
+  <!-- Stylized L -->
+  <path d="M174 88 L330 88 C352 88 362 98 352 118 L232 232 L372 232" stroke="url(#lexusChrome)" stroke-width="28" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+</svg>

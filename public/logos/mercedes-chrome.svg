@@ -1,0 +1,33 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="mercOuterRing" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="25%" stop-color="#94A3B8"/>
+      <stop offset="50%" stop-color="#F1F5F9"/>
+      <stop offset="75%" stop-color="#64748B"/>
+      <stop offset="100%" stop-color="#E2E8F0"/>
+    </linearGradient>
+    <linearGradient id="mercStarL" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#CBD5E1"/>
+    </linearGradient>
+    <linearGradient id="mercStarR" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#94A3B8"/>
+      <stop offset="100%" stop-color="#475569"/>
+    </linearGradient>
+  </defs>
+  <!-- Outer Chrome Ring -->
+  <circle cx="256" cy="256" r="216" stroke="url(#mercOuterRing)" stroke-width="26" fill="none"/>
+  <circle cx="256" cy="256" r="229" stroke="#334155" stroke-width="2" fill="none" opacity="0.6"/>
+  <!-- Top Arm (faceted) -->
+  <polygon points="256,58 244,256 256,242" fill="url(#mercStarL)"/>
+  <polygon points="256,58 268,256 256,242" fill="url(#mercStarR)"/>
+  <!-- Bottom-Right Arm -->
+  <polygon points="427,355 256,268 266,252" fill="url(#mercStarL)"/>
+  <polygon points="427,355 244,256 266,252" fill="url(#mercStarR)"/>
+  <!-- Bottom-Left Arm -->
+  <polygon points="85,355 246,252 256,268" fill="url(#mercStarL)"/>
+  <polygon points="85,355 246,252 268,256" fill="url(#mercStarR)"/>
+  <!-- Center Cap -->
+  <circle cx="256" cy="256" r="16" fill="url(#mercOuterRing)"/>
+</svg>

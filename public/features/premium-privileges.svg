@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Diamond gem perimeter -->
+  <path d="M14 31.5L22.5 23.5h19L50 31.5l-18 21.5L14 31.5z" />
+
+  <!-- Horizontal girdle line -->
+  <line x1="14" y1="31.5" x2="50" y2="31.5" />
+
+  <!-- Crown facets: inverted triangle in middle + side diagonal kites -->
+  <line x1="26" y1="23.5" x2="32" y2="31.5" />
+  <line x1="38" y1="23.5" x2="32" y2="31.5" />
+  <line x1="22.5" y1="23.5" x2="26" y2="31.5" />
+  <line x1="41.5" y1="23.5" x2="38" y2="31.5" />
+
+  <!-- Pavilion facets: radiating lines down to culet (32, 53) -->
+  <line x1="26" y1="31.5" x2="32" y2="53" />
+  <line x1="32" y1="31.5" x2="32" y2="53" />
+  <line x1="38" y1="31.5" x2="32" y2="53" />
+
+  <!-- Sparkle 1: Top-Left (larger 4-pointed star) -->
+  <path d="M14 11c0 3-2.3 5.3-5.3 5.3 3 0 5.3 2.3 5.3 5.3 0-3 2.3-5.3 5.3-5.3-3 0-5.3-2.3-5.3-5.3z" fill="white" stroke="none" />
+
+  <!-- Sparkle 2: Top-Right (medium 4-pointed star) -->
+  <path d="M51 15c0 2.4-1.8 4.2-4.2 4.2 2.4 0 4.2 1.8 4.2 4.2 0-2.4 1.8-4.2 4.2-4.2-2.4 0-4.2-1.8-4.2-4.2z" fill="white" stroke="none" />
+
+  <!-- Sparkle 3: Bottom-Right (delicate 4-pointed star) -->
+  <path d="M49 44c0 1.8-1.4 3.2-3.2 3.2 1.8 0 3.2 1.4 3.2 3.2 0-1.8 1.4-3.2 3.2-3.2-1.8 0-3.2-1.4-3.2-3.2z" fill="white" stroke="none" />
+</svg>
+

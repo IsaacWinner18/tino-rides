@@ -1,0 +1,36 @@
+<svg width="512" height="420" viewBox="0 0 512 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="goldCadillac" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FCD34D"/>
+      <stop offset="100%" stop-color="#D97706"/>
+    </linearGradient>
+    <linearGradient id="silverCadillac" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="50%" stop-color="#94A3B8"/>
+      <stop offset="100%" stop-color="#E2E8F0"/>
+    </linearGradient>
+  </defs>
+  <!-- Laurel Wreath Leaves (Left) -->
+  <path d="M112 210 C102 160 122 115 162 85 C152 105 147 135 152 165 C132 175 117 190 112 210 Z" fill="url(#silverCadillac)" opacity="0.9"/>
+  <path d="M92 260 C87 225 102 185 127 155 C117 180 117 210 127 235 C107 240 97 250 92 260 Z" fill="url(#silverCadillac)" opacity="0.9"/>
+  <path d="M127 305 C107 285 97 255 102 225 C117 245 137 260 157 270 C147 285 137 295 127 305 Z" fill="url(#silverCadillac)" opacity="0.9"/>
+  <path d="M182 335 C152 325 132 305 122 280 C142 290 172 295 197 290 C192 310 187 325 182 335 Z" fill="url(#silverCadillac)" opacity="0.9"/>
+  <!-- Laurel Wreath Leaves (Right) -->
+  <path d="M400 210 C410 160 390 115 350 85 C360 105 365 135 360 165 C380 175 395 190 400 210 Z" fill="url(#silverCadillac)" opacity="0.9"/>
+  <path d="M420 260 C425 225 410 185 385 155 C395 180 395 210 385 235 C405 240 415 250 420 260 Z" fill="url(#silverCadillac)" opacity="0.9"/>
+  <path d="M385 305 C405 285 415 255 410 225 C395 245 375 260 355 270 C365 285 375 295 385 305 Z" fill="url(#silverCadillac)" opacity="0.9"/>
+  <path d="M330 335 C360 325 380 305 390 280 C370 290 340 295 315 290 C320 310 325 325 330 335 Z" fill="url(#silverCadillac)" opacity="0.9"/>
+  <!-- Center Crest Outer Shield -->
+  <path d="M190 165 H322 V245 C322 285 256 315 256 315 C256 315 190 285 190 245 Z" fill="#111111" stroke="url(#goldCadillac)" stroke-width="12"/>
+  <!-- Internal Chevrons and Enamel Colors -->
+  <rect x="202" y="177" width="50" height="24" fill="#C4121A"/>
+  <rect x="260" y="177" width="50" height="24" fill="#1D4ED8"/>
+  <rect x="202" y="209" width="50" height="24" fill="url(#goldCadillac)"/>
+  <rect x="260" y="209" width="50" height="24" fill="#111111"/>
+  <path d="M202 241 H310 V255 C310 280 256 300 256 300 C256 300 202 280 202 255 Z" fill="url(#silverCadillac)" opacity="0.8"/>
+  <!-- Top Crownlet -->
+  <path d="M216 115 L236 145 L256 110 L276 145 L296 115 L286 155 L226 155 Z" fill="url(#goldCadillac)" stroke="url(#silverCadillac)" stroke-width="3"/>
+  <circle cx="216" cy="110" r="5" fill="url(#goldCadillac)"/>
+  <circle cx="256" cy="105" r="6" fill="url(#goldCadillac)"/>
+  <circle cx="296" cy="110" r="5" fill="url(#goldCadillac)"/>
+</svg>

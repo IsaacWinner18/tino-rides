@@ -1,0 +1,16 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="teslaChrome" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="30%" stop-color="#E2E8F0"/>
+      <stop offset="60%" stop-color="#94A3B8"/>
+      <stop offset="100%" stop-color="#F1F5F9"/>
+    </linearGradient>
+  </defs>
+  <!-- Lower Shield Arch -->
+  <path d="M256 160 C205 160 144 178 102 204 C112 224 125 237 138 247 C171 229 212 219 256 219 C300 219 341 229 374 247 C387 237 400 224 410 204 C368 178 307 160 256 160 Z" fill="url(#teslaChrome)"/>
+  <!-- Upper Roof Arch -->
+  <path d="M256 92 C184 92 118 110 72 138 C77 153 85 166 93 176 C134 153 190 138 256 138 C322 138 378 153 419 176 C427 166 435 153 440 138 C394 110 328 92 256 92 Z" fill="url(#teslaChrome)"/>
+  <!-- Vertical Pillar -->
+  <path d="M233 234 L233 420 C246 429 266 429 279 420 L279 234 C271 236 264 237 256 237 C248 237 241 236 233 234 Z" fill="url(#teslaChrome)"/>
+</svg>

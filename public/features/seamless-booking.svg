@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <!-- Mask to cleanly cut phone and checkmark lines behind hand with 0 bleed -->
+    <mask id="hand-mask">
+      <rect width="64" height="64" fill="white" />
+      <!-- Black cutout for index finger and palm -->
+      <path d="M28.5 35V24a3 3 0 0 1 6 0v11" fill="black" stroke="black" stroke-width="2.5" />
+      <path d="M34.5 30a2.5 2.5 0 0 1 5 0v4.5a2.5 2.5 0 0 1 5 0v4c0 6-3.8 9.5-8.5 9.5h-2.5c-3.2 0-5.4-1.6-7-4.2l-2.8-4.5a2.2 2.2 0 0 1 3.7-2.3l1.8 2.7" fill="black" stroke="black" stroke-width="2.5" />
+    </mask>
+  </defs>
+
+  <!-- Background elements masked behind hand -->
+  <g mask="url(#hand-mask)" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Smartphone body -->
+    <rect x="15" y="7" width="28" height="48" rx="5.5" ry="5.5" />
+    <!-- Speaker notch -->
+    <line x1="25.5" y1="12" x2="32.5" y2="12" />
+    <!-- Side button pip on right -->
+    <line x1="43" y1="18" x2="43" y2="23" stroke-width="1.8" />
+    <!-- Checkmark Circle -->
+    <circle cx="29" cy="24.5" r="7.5" />
+    <!-- Checkmark inside -->
+    <path d="M25.5 24.5l2.4 2.4 4.8-4.8" />
+  </g>
+
+  <!-- Foreground Hand: clean outline, transparent interior -->
+  <g stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Index finger pointing up and tapping -->
+    <path d="M28.5 35V24a3 3 0 0 1 6 0v11" />
+    <!-- Middle, ring, pinky fingers and palm -->
+    <path d="M34.5 30a2.5 2.5 0 0 1 5 0v4.5a2.5 2.5 0 0 1 5 0v4c0 6-3.8 9.5-8.5 9.5h-2.5c-3.2 0-5.4-1.6-7-4.2l-2.8-4.5a2.2 2.2 0 0 1 3.7-2.3l1.8 2.7" />
+    <!-- Folded finger knuckle creases -->
+    <line x1="39.5" y1="34" x2="39.5" y2="39" stroke-width="1.8" />
+    <line x1="44.5" y1="38.5" x2="44.5" y2="43" stroke-width="1.8" />
+  </g>
+</svg>
+
