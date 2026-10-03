@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 
 export default function Footer() {
   const [email, setEmail] = useState("");
@@ -60,10 +61,21 @@ export default function Footer() {
             {/* Logo */}
             <a
               href="#"
-              className="flex items-center gap-1.5 text-2xl tracking-tight select-none font-black uppercase leading-none mb-6 group"
+              className="flex items-center gap-2.5 text-2xl tracking-tight select-none font-black uppercase leading-none mb-6 group"
             >
-              <span className="text-black">TINO</span>
-              <span className="text-[#3b82f6]">RIDES</span>
+              <div className="relative w-8 h-8 rounded-full overflow-hidden shadow-sm flex items-center justify-center bg-[#0d0e12] ring-1 ring-blue-500/30 group-hover:scale-105 transition-transform shrink-0">
+                <Image
+                  src="/logo.png"
+                  alt="TINO RIDES Emblem"
+                  width={32}
+                  height={32}
+                  className="object-contain"
+                />
+              </div>
+              <div className="flex items-center gap-1.5">
+                <span className="text-black">TINO</span>
+                <span className="text-[#3b82f6]">RIDES</span>
+              </div>
             </a>
 
             <p className="text-xs sm:text-sm font-semibold text-gray-900 mb-3 tracking-tight">

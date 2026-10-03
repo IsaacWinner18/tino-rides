@@ -1,0 +1,21 @@
+{
+  "name": "TINO RIDES - Luxury Car Rental & Chauffeur Services",
+  "short_name": "Tino Rides",
+  "description": "Nigeria's premier luxury car rental, VIP chauffeur, and armored convoy escort services.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#111215",
+  "theme_color": "#3b82f6",
+  "icons": [
+    {
+      "src": "/logo-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

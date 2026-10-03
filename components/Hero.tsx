@@ -63,10 +63,22 @@ export default function Hero() {
           {/* LOGO: TINO RIDES */}
           <a
             href="#"
-            className="flex items-center gap-1.5 text-lg sm:text-xl tracking-tight select-none font-black uppercase leading-none pl-1"
+            className="flex items-center gap-2 sm:gap-2.5 text-lg sm:text-xl tracking-tight select-none font-black uppercase leading-none pl-1 group"
           >
-            <span className="text-black">TINO</span>
-            <span className="text-[#3b82f6]">RIDES</span>
+            <div className="relative w-7 h-7 sm:w-8 sm:h-8 rounded-full overflow-hidden shadow-sm flex items-center justify-center bg-[#0d0e12] ring-1 ring-blue-500/30 group-hover:scale-105 transition-transform shrink-0">
+              <Image
+                src="/logo.png"
+                alt="TINO RIDES Emblem"
+                width={32}
+                height={32}
+                className="object-contain"
+                priority
+              />
+            </div>
+            <div className="flex items-center gap-1">
+              <span className="text-black">TINO</span>
+              <span className="text-[#3b82f6]">RIDES</span>
+            </div>
           </a>
 
           {/* DESKTOP NAV LINKS */}

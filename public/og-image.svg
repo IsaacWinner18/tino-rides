@@ -1,0 +1,147 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <radialGradient id="ogGlow" cx="75%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#1e3a8a" stop-opacity="0.45" />
+      <stop offset="50%" stop-color="#0f172a" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#090a0f" stop-opacity="1" />
+    </radialGradient>
+
+    <linearGradient id="ogBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#60a5fa" />
+      <stop offset="50%" stop-color="#3b82f6" />
+      <stop offset="100%" stop-color="#1d4ed8" />
+    </linearGradient>
+
+    <linearGradient id="ogChrome" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="50%" stop-color="#cbd5e1" />
+      <stop offset="100%" stop-color="#64748b" />
+    </linearGradient>
+
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e2433" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#11151f" stop-opacity="0.8" />
+    </linearGradient>
+
+    <filter id="ogShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="20" flood-color="#000000" flood-opacity="0.8" />
+    </filter>
+  </defs>
+
+  <!-- Deep Dark Luxury Background -->
+  <rect width="1200" height="630" fill="#0b0c10" />
+  <rect width="1200" height="630" fill="url(#ogGlow)" />
+
+  <!-- Subtle High-Tech Grid Accent Lines -->
+  <g opacity="0.12" stroke="#3b82f6" stroke-width="1">
+    <line x1="0" y1="120" x2="1200" y2="120" />
+    <line x1="0" y1="240" x2="1200" y2="240" />
+    <line x1="0" y1="360" x2="1200" y2="360" />
+    <line x1="0" y1="480" x2="1200" y2="480" />
+    <line x1="200" y1="0" x2="200" y2="630" />
+    <line x1="400" y1="0" x2="400" y2="630" />
+    <line x1="600" y1="0" x2="600" y2="630" />
+    <line x1="800" y1="0" x2="800" y2="630" />
+    <line x1="1000" y1="0" x2="1000" y2="630" />
+  </g>
+
+  <!-- Ambient Light Orbs -->
+  <circle cx="200" cy="180" r="220" fill="#3b82f6" opacity="0.08" filter="blur(60px)" />
+  <circle cx="950" cy="380" r="260" fill="#2563eb" opacity="0.12" filter="blur(80px)" />
+
+  <!-- LEFT CONTENT: BRANDING & HEADLINE -->
+  <g transform="translate(80, 80)">
+    <!-- Brand Pill / VIP Tag -->
+    <rect x="0" y="0" width="230" height="34" rx="17" fill="#1e293b" stroke="#3b82f6" stroke-width="1.2" stroke-opacity="0.8" />
+    <circle cx="16" cy="17" r="4.5" fill="#38bdf8" />
+    <text x="30" y="22" font-family="'Poppins', system-ui, sans-serif" font-size="11" font-weight="700" fill="#93c5fd" letter-spacing="2">
+      PREMIER LUXURY FLEET
+    </text>
+
+    <!-- Main Title -->
+    <text x="0" y="115" font-family="'Poppins', system-ui, sans-serif" font-size="68" font-weight="900" fill="#ffffff" letter-spacing="1">
+      TINO<tspan fill="#3b82f6">RIDES</tspan>
+    </text>
+
+    <!-- Subtitle / Tagline -->
+    <text x="0" y="165" font-family="'Poppins', system-ui, sans-serif" font-size="24" font-weight="600" fill="#e2e8f0" letter-spacing="0.5">
+      Luxury Car Rental &amp; VIP Chauffeur Service
+    </text>
+
+    <!-- Description -->
+    <text x="0" y="215" font-family="'Poppins', system-ui, sans-serif" font-size="16" font-weight="400" fill="#94a3b8">
+      Rolls-Royce • Bentley • Mercedes Maybach • Armored SUVs
+    </text>
+    <text x="0" y="242" font-family="'Poppins', system-ui, sans-serif" font-size="16" font-weight="400" fill="#94a3b8">
+      Available in Lagos, Abuja &amp; Nationwide Escort Across Nigeria
+    </text>
+
+    <!-- Feature Highlights Badges -->
+    <g transform="translate(0, 290)">
+      <!-- Badge 1: 5-Star Rated -->
+      <rect x="0" y="0" width="165" height="42" rx="10" fill="url(#cardBg)" stroke="#334155" stroke-width="1" />
+      <text x="16" y="26" font-family="'Poppins', system-ui, sans-serif" font-size="13" font-weight="600" fill="#ffffff">
+        ★ 5-Star Rated
+      </text>
+
+      <!-- Badge 2: Armored Escort -->
+      <rect x="180" y="0" width="175" height="42" rx="10" fill="url(#cardBg)" stroke="#334155" stroke-width="1" />
+      <text x="196" y="26" font-family="'Poppins', system-ui, sans-serif" font-size="13" font-weight="600" fill="#ffffff">
+        🛡️ Armored Escort
+      </text>
+
+      <!-- Badge 3: 24/7 Concierge -->
+      <rect x="370" y="0" width="170" height="42" rx="10" fill="url(#cardBg)" stroke="#334155" stroke-width="1" />
+      <text x="386" y="26" font-family="'Poppins', system-ui, sans-serif" font-size="13" font-weight="600" fill="#ffffff">
+        ⚡ 24/7 Chauffeur
+      </text>
+    </g>
+
+    <!-- Domain Footer -->
+    <text x="0" y="415" font-family="'Poppins', system-ui, sans-serif" font-size="16" font-weight="700" fill="#3b82f6" letter-spacing="1">
+      tinorides.com
+    </text>
+  </g>
+
+  <!-- RIGHT SIDE: LUXURY EMBLEM SHOWCASE IN GLASS PANEL -->
+  <g transform="translate(730, 75)" filter="url(#ogShadow)">
+    <!-- Frosted Glass Card Container -->
+    <rect x="0" y="0" width="390" height="470" rx="24" fill="#0f131d" fill-opacity="0.85" stroke="url(#ogBlue)" stroke-width="1.5" />
+    
+    <!-- Inner Accent Frame -->
+    <rect x="15" y="15" width="360" height="440" rx="16" fill="none" stroke="#334155" stroke-width="1" stroke-opacity="0.4" />
+
+    <!-- Big Center Emblem Inside Card -->
+    <g transform="translate(195, 210) scale(0.68)">
+      <!-- Outer Shield Ring -->
+      <circle cx="0" cy="0" r="210" fill="url(#bgGrad)" stroke="url(#ogChrome)" stroke-width="3" />
+      <circle cx="0" cy="0" r="198" fill="none" stroke="url(#ogBlue)" stroke-width="2" stroke-dasharray="6 4" />
+
+      <!-- Left Wings -->
+      <path d="M -136 -76 C -96 -96, -46 -91, -8 -78 L -12 -58 C -46 -68, -88 -72, -122 -54 Z" fill="url(#ogChrome)" />
+      <path d="M -116 -41 C -81 -56, -41 -52, -10 -40 L -14 -22 C -41 -32, -76 -34, -104 -20 Z" fill="url(#ogBlue)" />
+      <path d="M -88 -6 C -60 -16, -30 -14, -10 -4 L -13 12 C -30 4, -56 2, -78 14 Z" fill="url(#ogChrome)" />
+
+      <!-- Right Wings -->
+      <path d="M 136 -76 C 96 -96, 46 -91, 8 -78 L 12 -58 C 46 -68, 88 -72, 122 -54 Z" fill="url(#ogChrome)" />
+      <path d="M 116 -41 C 81 -56, 41 -52, 10 -40 L 14 -22 C 41 -32, 76 -34, 104 -20 Z" fill="url(#ogBlue)" />
+      <path d="M 88 -6 C 60 -16, 30 -14, 10 -4 L 13 12 C 30 4, 56 2, 78 14 Z" fill="url(#ogChrome)" />
+
+      <!-- Central T Monogram -->
+      <polygon points="0,-128 18,-104 0,-98 -18,-104" fill="url(#ogBlue)" stroke="#ffffff" stroke-width="1.5" />
+      <path d="M -66 -108 L 0 -100 L 0 -84 L -54 -90 Z" fill="#ffffff" />
+      <path d="M 0 -100 L 66 -108 L 54 -90 L 0 -84 Z" fill="#94a3b8" />
+      <polygon points="-12,-84 0,-84 0,80 -8,92 -16,34" fill="url(#ogChrome)" />
+      <polygon points="0,-84 12,-84 16,34 8,92 0,80" fill="url(#ogBlue)" />
+      <polygon points="-8,92 0,80 8,92 0,112" fill="#38bdf8" />
+    </g>
+
+    <!-- Card Footer Text -->
+    <text x="195" y="410" font-family="'Poppins', system-ui, sans-serif" font-size="14" font-weight="700" fill="#ffffff" letter-spacing="3" text-anchor="middle">
+      EXECUTIVE DISTINCTION
+    </text>
+    <text x="195" y="430" font-family="'Poppins', system-ui, sans-serif" font-size="10" font-weight="500" fill="#64748b" letter-spacing="2" text-anchor="middle">
+      LAGOS • ABUJA • PH • AIRPORT VIP
+    </text>
+  </g>
+</svg>
